@@ -1,0 +1,27 @@
+<form (ngSubmit)="salvar()">   
+ 
+    <br/>
+    <h3>{{titulo}}</h3>
+ 
+    <label>Cpf:
+        <input type="input" name="cpf" size="11" [(ngModel)]="cliente.cpf"/>
+    </label><br/><br/>
+ 
+    <label>Nome:
+        <input type="input" name="nome" size="30" [(ngModel)]="cliente.nome"/>
+    </label><br/><br/>
+
+    <label>Telefone:
+        <input type="input" name="telefone" size="16" [(ngModel)]="cliente.telefone"/>
+    </label><br/><br/>
+    
+    <label>Observação:
+        <input type="input" name="obser" size="30" [(ngModel)]="cliente.observacao"/>
+    </label><br/><br/>
+
+    <label>Endereço:
+        <input type="input" name="endereco" size="30" [(ngModel)]="cliente.endereco"/>
+    </label><br/><br/>
+ 
+    <button type="submit">Salvar</button>
+</form>

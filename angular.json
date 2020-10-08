@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-cadastros-demacode"
+    }
+  },
+  "defaultProject": "app-cadastros-demacode",
+  "cli": {
+    "analytics": "95d32482-fdc2-417f-b426-c6f94d131a72"
+  }
 }
